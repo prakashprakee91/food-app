@@ -1,0 +1,21 @@
+.nav-tabs {
+    display: flex;
+  }
+  
+  .tab {
+    margin-right: 10px;
+  }
+  
+  .tab span {
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .tab span.active {
+    background-color: blue; /* Change the background color for active tab */
+    color: white; /* Change the text color for active tab */
+  }
+
+  .menu {
+    background-color: #282c34;  
+  }
