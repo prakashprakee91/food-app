@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+/* Style the tab buttons */
+.tab {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  float: left;
+  transition: background-color 0.3s;
+}
+
+.tablink.active {
+  background-color: #ddd;
+}
+
+.tablink:hover {
+  background-color: #ddd;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border-top: none;
+}
+
+/* Style the active tab content */
+.tabcontent.active {
+  display: block;
+}

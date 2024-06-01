@@ -1,21 +1,52 @@
 .nav-tabs {
     display: flex;
+    background-color: #282c34; 
   }
   
-  .tab {
+  /* .tab {
     margin-right: 10px;
-  }
+  } */
   
-  .tab span {
+  /* .menu {
+    background-color: #282c34;  
+  } */
+
+  .tab {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
     cursor: pointer;
-    padding: 5px 10px;
+    float: left;
+    transition: background-color 0.3s;
+    flex: 1;
   }
   
-  .tab span.active {
-    background-color: blue; /* Change the background color for active tab */
+  .tablink.active {
+    background-color: darkgray; /* Change the background color for active tab */
     color: white; /* Change the text color for active tab */
   }
+  
+  .tablink:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 20px;
+    border-top: none;
+  }
+  
+  /* Style the active tab content */
+  .tabcontent.active {
+    display: block;
+  }
 
-  .menu {
-    background-color: #282c34;  
+  button {
+    border: none;
+  }
+
+  menu {
+    border: 1px 1px solid black;
   }

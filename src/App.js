@@ -33,7 +33,7 @@ function App() {
   const name = 'Prakash'
   return (
     <div className="App">
-      <Header props={name}></Header>
+      {/* <Header props={name}></Header> */}
       <TabMenu></TabMenu>
     </div>
   );
